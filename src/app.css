@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer base {
+    input[type='number']::-webkit-outer-spin-button,
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number'] {
+        -webkit-appearance: none;
+        -moz-appearance: textfield !important;
+        appearance: textfield; /* 標準屬性 */
+        margin: 0;
+    }
+}
